@@ -31,10 +31,10 @@ describe('Create a instance of {UndefinedContextError} using <new> keyword', () 
 
 describe('Throw a new {UndefinedContextError}', () => {
   it('should throw an {Error}', () => {
-    (() => {throw new UndefinedContextError() }).should.throw(Error)
+    (() => { throw new UndefinedContextError() }).should.throw(Error)
   })
 
   it('should throw an {UndefinedContextError}', () => {
-    (() => {throw new UndefinedContextError() }).should.throw(UndefinedContextError)
+    (() => { throw new UndefinedContextError() }).should.throw(UndefinedContextError)
   })
 })
